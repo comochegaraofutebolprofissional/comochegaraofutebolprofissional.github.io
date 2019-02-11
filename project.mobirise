@@ -37,7 +37,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 24,
+    "uniqCompNum": 29,
     "versionPublish": "4.8.10",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/como-chegar-ao-futebol-profissional-128x192.png",
@@ -409,7 +409,7 @@
             }
           },
           "_name": "content11",
-          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b>BÔNUS ESPECIAL - CHECK LIST COMPLETO: </b>COM ESSE BÔNUS EXTRA, VOCÊ TERA UM TREINAMENTO DIÁRIO COMPLETO E ORGANIZADO COM TODOS OS SEUS EXERCÍCIOS DE FUNDAMENTO E, CONSEQUENTEMENTE, MELHORANDO TODAS AS SUAS QUALIDADES TÉCNICAS &nbsp;(SENDO DESTAQUE EM QUALQUER LUGAR QUE VOCÊ JOGAR).</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b>BÔNUS ESPECIAL - CHECK LIST COMPLETO: </b>COM ESSE BÔNUS EXTRA, VOCÊ TERA UM TREINAMENTO DIÁRIO COMPLETO E ORGANIZADO COM TODOS OS SEUS EXERCÍCIOS DE FUNDAMENTO E, CONSEQUENTEMENTE, MELHORANDO TODAS AS SUAS QUALIDADES TÉCNICAS &nbsp;(SENDO DESTAQUE EM QUALQUER LUGAR QUE VOCÊ JOGAR).</li><li><b>BÔNUS ESPECIAL - EBOOK EXTRA ( 4 PASSOS PARA ACERTAR TODO SO PASSES DENTRO DE UMA PARTIDA): </b>&nbsp;NESSE EBOOK VOCÊ IRA APRENDER AS 4 PRINCIPAIS E MAIS IMPORTANTES TÉCNICAS PARA MELHORAR QUALQUER TIPO DE PASSE QUE EFETUAR NO MEIO DA PARTIDA (CURTO, MÉDIO E LONGO)</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rfEYvxes0D",
           "_anchor": "content11-p",
           "_protectedParams": [],
@@ -517,6 +517,53 @@
           "_protectedParams": [],
           "_global": true,
           "_once": true,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ol": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem"
+                },
+                "& when (@stylizedCounters)": {
+                  "counter-reset": "myCounter",
+                  "li": {
+                    "list-style": "none",
+                    "padding-left": ".5rem",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "0px",
+                      "margin-top": "-10px",
+                      "counter-increment": "myCounter",
+                      "content": "counter(myCounter)",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "40px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "40px",
+                      "height": "40px",
+                      "border-radius": "50%",
+                      "& when (@squareCounters)": {
+                        "border-radius": "0"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "_name": "content11",
+          "_cid": "rhMS1LMuCl",
+          "_protectedParams": [],
           "_params": {}
         }
       ]
