@@ -518,53 +518,6 @@
           "_global": true,
           "_once": true,
           "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".counter-container": {
-              "color": "#767676",
-              "ol": {
-                "margin-bottom": "0",
-                "li": {
-                  "margin-bottom": "1rem"
-                },
-                "& when (@stylizedCounters)": {
-                  "counter-reset": "myCounter",
-                  "li": {
-                    "list-style": "none",
-                    "padding-left": ".5rem",
-                    "&:before": {
-                      "position": "absolute",
-                      "left": "0px",
-                      "margin-top": "-10px",
-                      "counter-increment": "myCounter",
-                      "content": "counter(myCounter)",
-                      "display": "inline-block",
-                      "text-align": "center",
-                      "margin": "5px 10px",
-                      "line-height": "40px",
-                      "transition": "all .2s",
-                      "color": "contrast(@counterColor)",
-                      "background": "@counterColor",
-                      "width": "40px",
-                      "height": "40px",
-                      "border-radius": "50%",
-                      "& when (@squareCounters)": {
-                        "border-radius": "0"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "_name": "content11",
-          "_cid": "rhMS1LMuCl",
-          "_protectedParams": [],
-          "_params": {}
         }
       ]
     }
