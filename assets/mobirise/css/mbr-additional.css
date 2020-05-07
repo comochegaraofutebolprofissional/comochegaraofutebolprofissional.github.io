@@ -1400,36 +1400,24 @@ body {
     width: 100% !important;
   }
 }
-.cid-rXcV5OpVov {
-  padding-top: 30px;
+.cid-rXcV5XhVWJ {
+  padding-top: 15px;
   padding-bottom: 30px;
-  background-color: #efefef;
-}
-.cid-rXcV5OpVov H1 {
-  color: #232323;
-}
-.cid-rXcV5OpVov P {
-  color: #232323;
-}
-.cid-rXcV5P9vMM {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/jhan-castillon-610644-unsplash-2000x1329.jpg");
+  background-color: #767676;
 }
 @media (min-width: 992px) {
-  .cid-rXcV5P9vMM .mbr-figure {
-    padding-right: 4rem;
+  .cid-rXcV5XhVWJ .mbr-figure {
+    padding-left: 4rem;
   }
 }
-@media (max-width: 991px) {
-  .cid-rXcV5P9vMM .mbr-figure {
-    padding-bottom: 3rem;
+@media (max-width: 992px) {
+  .cid-rXcV5XhVWJ .mbr-figure {
+    padding-top: 1rem;
   }
 }
-@media (max-width: 767px) {
-  .cid-rXcV5P9vMM .mbr-text {
-    text-align: center;
-  }
+.cid-rXcV5XhVWJ .mbr-text {
+  color: #ffffff;
+  text-align: left;
 }
 .cid-rXCohT3cO0 {
   padding-top: 30px;
@@ -1470,6 +1458,37 @@ body {
 }
 .cid-rXCohT3cO0 .team-item .item-caption {
   background: #efefef;
+}
+.cid-rXcV5OpVov {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #efefef;
+}
+.cid-rXcV5OpVov H1 {
+  color: #232323;
+}
+.cid-rXcV5OpVov P {
+  color: #232323;
+}
+.cid-rXcV5P9vMM {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/jhan-castillon-610644-unsplash-2000x1329.jpg");
+}
+@media (min-width: 992px) {
+  .cid-rXcV5P9vMM .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rXcV5P9vMM .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rXcV5P9vMM .mbr-text {
+    text-align: center;
+  }
 }
 .cid-rXcV5RSezj {
   padding-top: 90px;
@@ -1593,25 +1612,6 @@ body {
     padding: 15px;
     -webkit-flex: 0 0 20%;
   }
-}
-.cid-rXcV5XhVWJ {
-  padding-top: 15px;
-  padding-bottom: 30px;
-  background-color: #c1c1c1;
-}
-@media (min-width: 992px) {
-  .cid-rXcV5XhVWJ .mbr-figure {
-    padding-left: 4rem;
-  }
-}
-@media (max-width: 992px) {
-  .cid-rXcV5XhVWJ .mbr-figure {
-    padding-top: 1rem;
-  }
-}
-.cid-rXcV5XhVWJ .mbr-text {
-  color: #060404;
-  text-align: left;
 }
 .cid-rXjRCQzItW {
   padding-top: 30px;
