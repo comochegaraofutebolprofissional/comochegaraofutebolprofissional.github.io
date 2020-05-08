@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Como Chegar Ao Futebol Profissional2",
+    "name": "Como Chegar Ao Futebol Profissional",
     "currentPage": "Oficial.html",
     "theme": {
       "name": "mobirise4",
@@ -31,8 +31,7 @@
         "#9d88a9",
         "#164a1a",
         "#13d722",
-        "#060404",
-        "#4f4f56"
+        "#060404"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -47,7 +46,7 @@
   "pages": {
     "Oficial.html": {
       "settings": {
-        "title": "Como Chegar Ao Futebol Profissional",
+        "title": "Ebook Como Chegar Ao Futebol Profissional",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
